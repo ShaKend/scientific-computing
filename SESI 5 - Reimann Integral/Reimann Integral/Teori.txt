@@ -1,0 +1,34 @@
+teori :
+menentui jml kotak, itung luas per kotak
+
+luas kotak = panjang x lebar
+
+langkah :
+1. menentukan function n range luas
+2. menentukan jml kotak
+3. menentukan lebar (x)
+4. menentukan panjang (y)
+5. pakai rule yang diinginkan (left reimann sum, midpoint reimann sum, right reimann sum)
+
+left reimann : 
+lebar x sum 
+awal ampe akhir - 1, misal ada 5 garis (histogram kek gtuan) ambilny yang awal - ke 4 aj. terakhir kg dipake
+jadi yang diambil :
+|   |   |   |   |
+|   |   |   |   |
+|   |   |   |   |
+y   y   y   y   x
+
+
+right r :
+lebar x sum
+bedany dr belakang, yg left dr depan (kiri). tetap -1 juga kalau data 4 batang ada 5 garis, 
+jadi yang diambil :
+|   |   |   |   |
+|   |   |   |   |
+|   |   |   |   |
+x   y   y   y   y
+
+midpoint :
+trapezoid :
+
